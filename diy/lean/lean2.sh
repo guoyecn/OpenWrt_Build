@@ -59,7 +59,7 @@ sed -i "s/hostname='.*'/hostname='AE86Wrt'/g" package/base-files/files/bin/confi
 
 
 ##boos4721
-sed -i 's/10.10.10.1/192.168.2.1/g' package/base-files/files/bin/config_generate
+sed -i 's/10.10.10.1/192.168.16.1/g' package/base-files/files/bin/config_generate
 sed -i 's/$1$WplwC1t5$HBAtVXABp7XbvVjG4193B.:18753/:/g' package/base-files/files/etc/shadow
 sed -i "s/encryption=.*/encryption=none/g" package/kernel/mac80211/files/lib/wifi/mac80211.sh
 sed -i "/key=.*/d" package/kernel/mac80211/files/lib/wifi/mac80211.sh
